@@ -1,21 +1,21 @@
 pipeline {
   agent any
   stages {
-    stage('Fluffy Build') {
+    stage('Testing Build') {
       steps {
-        sh 'echo Edited Placeholder'
-        echo 'Placeholder'
+        sh 'Assignment 3 Test'
+       
       }
     }
 
-    stage('Fluffy Test') {
+    stage('Still Testing') {
       steps {
         sh '''sleep 5
-echo Success!'''
+          echo Success!'''
       }
     }
 
-    stage('Fluffy Deploy') {
+    stage('Done Testing') {
       steps {
         echo 'Placeholder'
       }
