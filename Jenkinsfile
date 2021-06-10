@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Buzz Build') {
       steps {
-        sh '/tmp/script.sh'
+        sh 'echo "Buzz Buzz"'
       }
     }
 
